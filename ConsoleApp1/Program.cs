@@ -10,6 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            List<Vertex> mojaLista = VertexFactory.StworzListeCoord();
+
+            foreach (var c in mojaLista)
+            {
+                Console.WriteLine(c);
+            }
         }
     }
 }
